@@ -62,7 +62,7 @@ export function App() {
               <p className="clock-label">segundos</p>
             </div>
             <div
-              className="md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-black text-center uppercase absolute top-96 -mt-10 md:mt-0 md:top-[13rem] left-0 w-full"
+              className="md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-black text-center uppercase absolute top-96 -mt-10 md:mt-0 md:top-[13rem] xl:top-[15rem] left-0 w-full"
               id="js-fulldate"
             >
               {biloFormated}
