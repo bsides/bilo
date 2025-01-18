@@ -1,6 +1,7 @@
 import React from 'react'
 
-const DATE_AIRPLANE_TICKET = Date.UTC(2024, 8 - 1, 8, 16 + 3, 50, 0)
+// YEAR, MONTH (starts in 0...), DAY, HOUR, MINUTE, SECOND
+const DATE_AIRPLANE_TICKET = Date.UTC(2025, 2 - 1, 27, 13 + 3, 1, 0)
 const bilo = new Date(DATE_AIRPLANE_TICKET).getTime()
 const biloFormated = new Intl.DateTimeFormat('pt-BR', {
   dateStyle: 'full',
